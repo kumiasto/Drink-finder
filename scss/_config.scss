@@ -1,0 +1,12 @@
+$primaryColor: #C71585;
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin drinkCategory {
+    font-weight: 700;
+    color: $primaryColor;
+    padding-bottom: 3vh;
+}
