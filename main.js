@@ -92,19 +92,16 @@ function showPopup() {
     }, 1500)
 }
 
+
+
 container.addEventListener('click', e => {
-    const drinkInfo = e.path.find(item => {
-        if (item.classList) {
-            return item.classList.contains('show-details')
-        } else {
-            return false;
-        }
-    });
+    const drinkInfo = e.target.parentNode.children[3];
+
     if (drinkInfo) {
         const drinkID = drinkInfo.getAttribute('data-drinkID');
         getDrinkByID(drinkID)
     }
-})
+});
 
 btnSearch.addEventListener('click', getDrink);
 btnRandom.addEventListener('click', getRandomDrink);
