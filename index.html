@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Drink Finder</title>
-    <script src="https://kit.fontawesome.com/c3bdb90c5b.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <script
+      src="https://kit.fontawesome.com/c3bdb90c5b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="search">
-        <p class="search__header">Find your perfect drink!</p>
-        <form class="search-form">
-            <input type="text" class="search-form__input" maxlength="20" placeholder="Search drink...">
-            <button class="search-form__button-search" type="submit"><i class="fas fa-search"></i></button>
-            <button class="search-form__button-random" type="submit"><i class="fas fa-random"></i></button>
-        </form>
+      <p class="search__header">Find your perfect drink!</p>
+      <form class="search-form">
+        <input
+          type="text"
+          class="search-form__input"
+          maxlength="20"
+          placeholder="Search drink..."
+        />
+        <button class="search-form__button-search" type="submit">
+          <i class="fas fa-search"></i>
+        </button>
+        <button class="search-form__button-random" type="submit">
+          <i class="fas fa-random"></i>
+        </button>
+      </form>
     </div>
     <div class="popup">
-        <h2 class="popup__info popup__info--visible">You must type something :) </h2>
+      <h2 class="popup__info popup__info--visible">
+        You must type something :)
+      </h2>
     </div>
     <div class="search-result"></div>
     <div class="container"></div>
     <div class="single-element-container"></div>
 
-
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
