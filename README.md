@@ -1,6 +1,6 @@
 # drink-finder
 
-### Drink finder with using API (https://www.thecocktaildb.com/). 
+### Drink finder with using API (https://www.thecocktaildb.com/)
 
 - Fetch API
 - Async/await
