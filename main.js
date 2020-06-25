@@ -18,7 +18,7 @@ async function getDrink(e) {
     singleElementContainer.innerHTML = "";
 
     if (data.drinks === null) {
-      divResult.innerHTML = `<h2 class="search-result__heading">Not result for '${input.value.toLowerCase()}'. Enter other drink!</h2>`;
+      divResult.innerHTML = `<h2 class="search-result__heading">Not result for '${input.value.toLowerCase()}'. Search other drink :)</h2>`;
       container.innerHTML = "";
       singleElementContainer.innerHTML = "";
     } else {
